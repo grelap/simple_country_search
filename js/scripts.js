@@ -21,7 +21,10 @@ function showCountriesList(resp) {
     $('<li>').html('<span>population: </span> ' + item.population + ' people').appendTo(countriesList);
     $('<li>').html('<span>timezone:</span> ' + item.timezones).appendTo(countriesList);
     $('<li>').html('<span>land area:</span> '+ item.area + ' km²').appendTo(countriesList);
-    $('<li>').html('<span>code: </span>' + item.alpha2Code).appendTo(countriesList);
+    $('<li>').html('<span>currencies:</span> '+ item.currencies).appendTo(countriesList);
+    $('<li>').html('<span>languages:</span> '+ item.languages).appendTo(countriesList);
+    $('<li>').html('<span>domain:</span> '+ item.topLevelDomain).appendTo(countriesList);
+    // $('<li>').html('<span>code: </span>' + item.alpha2Code).appendTo(countriesList);
     
      
   });        
