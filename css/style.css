@@ -1,0 +1,93 @@
+body {
+	font-family: 'Roboto Slab', serif;
+	margin: 0; 
+	background-color: #581845;
+	}
+
+h1 {
+   color: white;
+	font-size: 4rem;
+	padding: 6rem;
+	font-weight: 800;
+	margin: 0;
+	background-color: black;
+	border-bottom: 1px dashed  #581845;
+	text-align: center;  
+	background-image: url('https://static.pexels.com/photos/269633/pexels-photo-269633.jpeg');
+	background-size: cover;
+}
+
+h2 {
+	text-align:center;
+}
+
+h3 {
+	color: #FF5733;
+	margin-top: 90px;
+	border-bottom: 1px dashed white;
+	border-top: 1px dashed white;
+	font-size: 4rem;
+	padding: 40px;
+}
+
+p {
+	margin: 2rem;
+	color: #FF5733;
+	padding-bottom: 5vh;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+main{
+	margin: 0 auto;
+	width: 70%;
+}
+
+#countries {  
+	background-color: #581845;
+	list-style-type: none;
+	color: white;
+	line-height: 2em;
+}
+
+img {
+	height: 80%;
+	background-color:black;
+}
+
+ul span{
+	color:#FF5733;
+}
+.form{
+	width: 80%;
+	margin: 50px auto;
+	text-align: center;
+	padding: 0;
+}
+
+#search {
+	width: 30%;
+	padding: 32px 0;  
+	border: 0;
+	vertical-align: middle;
+	background-color: #FF5733;
+	font-size: 2rem;
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	cursor: pointer;
+	margin: 20px -4px;
+}
+
+#search:hover {
+	color: black;
+}
+
+#country-name{
+	width: 55%;
+	padding: 32px 25px;   
+	margin: 10px auto;
+	font-size: 2rem;
+	color: #FF5733;
+	vertical-align: middle;
+	border: 3px solid white;
+}
