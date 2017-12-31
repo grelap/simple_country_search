@@ -1,6 +1,6 @@
 # simple_country_search
 
-Simple country search based on API https://restcountries.eu/
+Simple country search based on API from https://restcountries.eu/
 
 demo:
 
