@@ -64,6 +64,7 @@ ul span{
   margin: 50px auto;
   text-align: center;
   padding: 0;
+  
 }
 
 #search {
@@ -72,7 +73,7 @@ ul span{
   border: 0;
   vertical-align: middle;
   background-color: #FF5733;
-  font-size: 2rem;
+  font-size: 2em;
   font-family: 'Roboto Slab', serif;
   color: white;
   cursor: pointer;
