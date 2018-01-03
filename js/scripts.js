@@ -14,7 +14,7 @@ function showCountriesList(resp) {
   countriesList.empty();
   resp.forEach(function(item) 
   { 
-  
+
     $('<h3>').text(item.name).appendTo(countriesList);
     $('<img>').attr('src', '' + 'http://www.geonames.org/flags/x/' + item.alpha2Code.toLowerCase() + ".gif").appendTo(countriesList);
     $('<h4>').html('<span>capital </span>of ' + item.name + ' is <span> ' + item.capital +'</span>').appendTo(countriesList);
@@ -24,9 +24,6 @@ function showCountriesList(resp) {
     $('<li>').html('<span>currencies:</span> '+ item.currencies).appendTo(countriesList);
     $('<li>').html('<span>languages:</span> '+ item.languages).appendTo(countriesList);
     $('<li>').html('<span>domain:</span> '+ item.topLevelDomain).appendTo(countriesList);
-    // $('<li>').html('<span>code: </span>' + item.alpha2Code).appendTo(countriesList);
-    
-     
-  });        
+  });
 
  }
