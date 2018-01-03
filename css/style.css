@@ -43,6 +43,7 @@ main {
   width: 70%;
 }
 
+
 img {
   height: 80%;
   background-color:black;
@@ -67,7 +68,6 @@ ul span{
   width: 80%;
   margin: 50px auto;
   text-align: center;
-  
 }
 
 #search {
@@ -90,10 +90,14 @@ ul span{
 
 #country-name{
   width: 55%;
-  padding: 32px 25px;
+  padding: 38px 25px;
   margin: 10px auto;
-  font-size: 2em;
+  font-size: 1.7em;
   color: #FF5733;
   vertical-align: middle;
-  border: 3px solid white;
+  border: none;
+}
+
+input {
+  border: 0px solid white;
 }
